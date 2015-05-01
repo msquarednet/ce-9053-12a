@@ -6,7 +6,7 @@ var peopleRouter = require("./routes/people_router");
 var sessionsRouter = require("./routes/sessions_router");
 
 db.connect(process.env.CONN, function(){
-  console.log("connected"); 
+  console.log("connected to DB!"); 
 });
 
 var app = express();
